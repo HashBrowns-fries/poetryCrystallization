@@ -41,11 +41,3 @@ uv sync
 | `scripts/32_fig4_intertextual_v2.py` | 图4 互文距离 |
 | `scripts/34_fig6_geographic_gravity_v2.py` | 图6 语义引力 |
 | `scripts/35_fig5_bert_classification.py` | 图5/8 BERT分类 |
-
-## 编译论文
-
-```bash
-PATH="/path/to/texlive/bin/x86_64-linux:$PATH" xelatex paper.tex
-```
-
-（需 TeX Live + xeCJK + xelatex）
