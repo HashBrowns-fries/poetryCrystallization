@@ -1,0 +1,313 @@
+{
+  "n_communities": 13,
+  "modularity": 0.647949851122179,
+  "n_ci_poets": 687,
+  "cross_dyn_ci_same_rate": 0.3101229732453993,
+  "expected_same_rate": 0.6545422910274528,
+  "enrichment": 0.4738012768565204,
+  "n_cross_dyn_ci_comm": 9,
+  "n_cross_dyn_ci_poets": 683,
+  "dyn_purity_mean": 0.5354169535685096,
+  "genre_purity_mean": 0.9557305453324355,
+  "community_details": {
+    "8": {
+      "size": 332,
+      "dyn_purity": 0.5271084337349398,
+      "dominant_dyn": "晋",
+      "dominant_genre": "shi",
+      "ci_n": 0,
+      "shi_n": 326,
+      "qu_n": 0,
+      "dyn_dist": {
+        "周": 14,
+        "汉": 48,
+        "晋": 175,
+        "南北朝": 44,
+        "隋": 4,
+        "唐": 21,
+        "宋": 8,
+        "元": 4,
+        "明": 7,
+        "清": 7
+      },
+      "genre_dist": {
+        "shi": 326,
+        "other": 6
+      }
+    },
+    "9": {
+      "size": 386,
+      "dyn_purity": 0.2979274611398964,
+      "dominant_dyn": "清",
+      "dominant_genre": "shi",
+      "ci_n": 0,
+      "shi_n": 378,
+      "qu_n": 0,
+      "dyn_dist": {
+        "汉": 12,
+        "晋": 34,
+        "南北朝": 9,
+        "隋": 1,
+        "唐": 39,
+        "宋": 99,
+        "元": 23,
+        "明": 41,
+        "清": 115,
+        "近代": 10,
+        "当代": 3
+      },
+      "genre_dist": {
+        "shi": 378,
+        "other": 8
+      }
+    },
+    "5": {
+      "size": 420,
+      "dyn_purity": 0.34523809523809523,
+      "dominant_dyn": "明",
+      "dominant_genre": "shi",
+      "ci_n": 0,
+      "shi_n": 416,
+      "qu_n": 0,
+      "dyn_dist": {
+        "汉": 1,
+        "晋": 1,
+        "南北朝": 3,
+        "唐": 24,
+        "宋": 37,
+        "元": 78,
+        "明": 145,
+        "清": 123,
+        "近代": 7,
+        "当代": 1
+      },
+      "genre_dist": {
+        "shi": 416,
+        "other": 4
+      }
+    },
+    "12": {
+      "size": 538,
+      "dyn_purity": 0.23048327137546468,
+      "dominant_dyn": "明",
+      "dominant_genre": "shi",
+      "ci_n": 0,
+      "shi_n": 532,
+      "qu_n": 0,
+      "dyn_dist": {
+        "汉": 2,
+        "晋": 9,
+        "南北朝": 93,
+        "隋": 20,
+        "唐": 106,
+        "宋": 119,
+        "元": 17,
+        "明": 124,
+        "清": 43,
+        "近代": 5
+      },
+      "genre_dist": {
+        "shi": 532,
+        "other": 6
+      }
+    },
+    "10": {
+      "size": 72,
+      "dyn_purity": 0.9722222222222222,
+      "dominant_dyn": "元",
+      "dominant_genre": "shi",
+      "ci_n": 0,
+      "shi_n": 59,
+      "qu_n": 13,
+      "dyn_dist": {
+        "汉": 1,
+        "唐": 1,
+        "元": 70
+      },
+      "genre_dist": {
+        "shi": 59,
+        "qu": 13
+      }
+    },
+    "11": {
+      "size": 148,
+      "dyn_purity": 0.7094594594594594,
+      "dominant_dyn": "宋",
+      "dominant_genre": "shi",
+      "ci_n": 5,
+      "shi_n": 140,
+      "qu_n": 1,
+      "dyn_dist": {
+        "汉": 1,
+        "晋": 2,
+        "唐": 18,
+        "宋": 105,
+        "元": 20,
+        "明": 1,
+        "当代": 1
+      },
+      "genre_dist": {
+        "shi": 140,
+        "other": 2,
+        "ci": 5,
+        "qu": 1
+      }
+    },
+    "1": {
+      "size": 368,
+      "dyn_purity": 0.358695652173913,
+      "dominant_dyn": "清",
+      "dominant_genre": "shi",
+      "ci_n": 0,
+      "shi_n": 363,
+      "qu_n": 0,
+      "dyn_dist": {
+        "晋": 1,
+        "南北朝": 1,
+        "唐": 10,
+        "宋": 48,
+        "元": 11,
+        "明": 48,
+        "清": 132,
+        "近代": 101,
+        "当代": 16
+      },
+      "genre_dist": {
+        "shi": 363,
+        "other": 5
+      }
+    },
+    "0": {
+      "size": 519,
+      "dyn_purity": 0.48554913294797686,
+      "dominant_dyn": "宋",
+      "dominant_genre": "shi",
+      "ci_n": 0,
+      "shi_n": 514,
+      "qu_n": 0,
+      "dyn_dist": {
+        "晋": 3,
+        "南北朝": 1,
+        "隋": 1,
+        "唐": 17,
+        "宋": 252,
+        "元": 30,
+        "明": 82,
+        "清": 107,
+        "近代": 16,
+        "当代": 10
+      },
+      "genre_dist": {
+        "shi": 514,
+        "other": 5
+      }
+    },
+    "6": {
+      "size": 818,
+      "dyn_purity": 0.3704156479217604,
+      "dominant_dyn": "明",
+      "dominant_genre": "shi",
+      "ci_n": 0,
+      "shi_n": 808,
+      "qu_n": 0,
+      "dyn_dist": {
+        "晋": 2,
+        "南北朝": 1,
+        "唐": 81,
+        "宋": 160,
+        "元": 83,
+        "明": 303,
+        "清": 122,
+        "近代": 53,
+        "当代": 13
+      },
+      "genre_dist": {
+        "shi": 808,
+        "other": 10
+      }
+    },
+    "2": {
+      "size": 571,
+      "dyn_purity": 0.4448336252189142,
+      "dominant_dyn": "清",
+      "dominant_genre": "shi",
+      "ci_n": 20,
+      "shi_n": 533,
+      "qu_n": 8,
+      "dyn_dist": {
+        "南北朝": 1,
+        "唐": 18,
+        "宋": 95,
+        "元": 35,
+        "明": 22,
+        "清": 254,
+        "近代": 96,
+        "当代": 49,
+        "未知": 1
+      },
+      "genre_dist": {
+        "shi": 533,
+        "other": 10,
+        "ci": 20,
+        "qu": 8
+      }
+    },
+    "3": {
+      "size": 119,
+      "dyn_purity": 0.2184873949579832,
+      "dominant_dyn": "宋",
+      "dominant_genre": "shi",
+      "ci_n": 3,
+      "shi_n": 115,
+      "qu_n": 1,
+      "dyn_dist": {
+        "南北朝": 1,
+        "隋": 2,
+        "唐": 2,
+        "宋": 26,
+        "元": 16,
+        "明": 10,
+        "清": 24,
+        "近代": 21,
+        "当代": 17
+      },
+      "genre_dist": {
+        "shi": 115,
+        "ci": 3,
+        "qu": 1
+      }
+    },
+    "7": {
+      "size": 107,
+      "dyn_purity": 1.0,
+      "dominant_dyn": "唐",
+      "dominant_genre": "shi",
+      "ci_n": 0,
+      "shi_n": 105,
+      "qu_n": 0,
+      "dyn_dist": {
+        "唐": 107
+      },
+      "genre_dist": {
+        "shi": 105,
+        "other": 2
+      }
+    },
+    "4": {
+      "size": 236,
+      "dyn_purity": 1.0,
+      "dominant_dyn": "唐",
+      "dominant_genre": "other",
+      "ci_n": 0,
+      "shi_n": 30,
+      "qu_n": 0,
+      "dyn_dist": {
+        "唐": 236
+      },
+      "genre_dist": {
+        "other": 206,
+        "shi": 30
+      }
+    }
+  }
+}

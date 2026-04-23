@@ -1,0 +1,667 @@
+{
+  "n_sampled": 80,
+  "spearman_rho": -0.544252317333625,
+  "spearman_p": 1.806715317051962e-07,
+  "pearson_r": -0.20064994181516052,
+  "pearson_p": 0.07432309721879446,
+  "tier_summary": {
+    "1-10": {
+      "n": 20,
+      "mean_boot_dist": 0.10114710956811905
+    },
+    "11-50": {
+      "n": 20,
+      "mean_boot_dist": 0.03467800632119179
+    },
+    "51-200": {
+      "n": 20,
+      "mean_boot_dist": 0.02271826148033142
+    },
+    "200+": {
+      "n": 20,
+      "mean_boot_dist": 0.012778692096471787
+    }
+  },
+  "per_poet": [
+    {
+      "name": "李陵",
+      "tier": "1-10",
+      "n_sentences": 5,
+      "n_poems": 1,
+      "bootstrap_dist_mean": 0.21599337756633757,
+      "bootstrap_dist_std": 0.07281162567729282
+    },
+    {
+      "name": "朱硕仙",
+      "tier": "1-10",
+      "n_sentences": 8,
+      "n_poems": 3,
+      "bootstrap_dist_mean": 0.034928512573242185,
+      "bootstrap_dist_std": 0.03195416697129371
+    },
+    {
+      "name": "贾充",
+      "tier": "1-10",
+      "n_sentences": 6,
+      "n_poems": 1,
+      "bootstrap_dist_mean": 0.0709010660648346,
+      "bootstrap_dist_std": 0.012554358853126907
+    },
+    {
+      "name": "何桢",
+      "tier": "1-10",
+      "n_sentences": 1,
+      "n_poems": 1,
+      "bootstrap_dist_mean": 0.0,
+      "bootstrap_dist_std": 0.0
+    },
+    {
+      "name": "华核",
+      "tier": "1-10",
+      "n_sentences": 1,
+      "n_poems": 1,
+      "bootstrap_dist_mean": 0.0,
+      "bootstrap_dist_std": 0.0
+    },
+    {
+      "name": "桓麟",
+      "tier": "1-10",
+      "n_sentences": 4,
+      "n_poems": 1,
+      "bootstrap_dist_mean": 0.08833317458629608,
+      "bootstrap_dist_std": 0.012692238235977066
+    },
+    {
+      "name": "商丘成",
+      "tier": "1-10",
+      "n_sentences": 1,
+      "n_poems": 1,
+      "bootstrap_dist_mean": 5.960464477539063e-08,
+      "bootstrap_dist_std": 0.0
+    },
+    {
+      "name": "王升之",
+      "tier": "1-10",
+      "n_sentences": 5,
+      "n_poems": 2,
+      "bootstrap_dist_mean": 0.12467045783996582,
+      "bootstrap_dist_std": 0.03002735322746135
+    },
+    {
+      "name": "戚夫人",
+      "tier": "1-10",
+      "n_sentences": 3,
+      "n_poems": 1,
+      "bootstrap_dist_mean": 0.24067997336387634,
+      "bootstrap_dist_std": 0.024069808521950117
+    },
+    {
+      "name": "释道安",
+      "tier": "1-10",
+      "n_sentences": 1,
+      "n_poems": 1,
+      "bootstrap_dist_mean": 0.0,
+      "bootstrap_dist_std": 0.0
+    },
+    {
+      "name": "袁峤之",
+      "tier": "1-10",
+      "n_sentences": 8,
+      "n_poems": 2,
+      "bootstrap_dist_mean": 0.0754726767539978,
+      "bootstrap_dist_std": 0.009855013172168334
+    },
+    {
+      "name": "萧子晖",
+      "tier": "1-10",
+      "n_sentences": 10,
+      "n_poems": 4,
+      "bootstrap_dist_mean": 0.06802731454372406,
+      "bootstrap_dist_std": 0.016641455037511882
+    },
+    {
+      "name": "张缵",
+      "tier": "1-10",
+      "n_sentences": 8,
+      "n_poems": 3,
+      "bootstrap_dist_mean": 0.09996345639228821,
+      "bootstrap_dist_std": 0.02800713168080357
+    },
+    {
+      "name": "刘友",
+      "tier": "1-10",
+      "n_sentences": 9,
+      "n_poems": 1,
+      "bootstrap_dist_mean": 0.05985057651996613,
+      "bootstrap_dist_std": 0.008901203076767563
+    },
+    {
+      "name": "张纯",
+      "tier": "1-10",
+      "n_sentences": 2,
+      "n_poems": 1,
+      "bootstrap_dist_mean": 0.1814333587884903,
+      "bootstrap_dist_std": 0.022244535707897348
+    },
+    {
+      "name": "孙皓",
+      "tier": "1-10",
+      "n_sentences": 2,
+      "n_poems": 1,
+      "bootstrap_dist_mean": 0.1501987099647522,
+      "bootstrap_dist_std": 0.003283474124750376
+    },
+    {
+      "name": "吴隐之",
+      "tier": "1-10",
+      "n_sentences": 2,
+      "n_poems": 1,
+      "bootstrap_dist_mean": 0.14406424760818481,
+      "bootstrap_dist_std": 0.0039020218173040876
+    },
+    {
+      "name": "帛道猷",
+      "tier": "1-10",
+      "n_sentences": 5,
+      "n_poems": 1,
+      "bootstrap_dist_mean": 0.1433329999446869,
+      "bootstrap_dist_std": 0.019939297654143352
+    },
+    {
+      "name": "伏系之",
+      "tier": "1-10",
+      "n_sentences": 2,
+      "n_poems": 1,
+      "bootstrap_dist_mean": 0.1147686094045639,
+      "bootstrap_dist_std": 0.0022081892332907085
+    },
+    {
+      "name": "曹髦",
+      "tier": "1-10",
+      "n_sentences": 3,
+      "n_poems": 2,
+      "bootstrap_dist_mean": 0.21032361984252929,
+      "bootstrap_dist_std": 0.021766851567977332
+    },
+    {
+      "name": "何劭",
+      "tier": "11-50",
+      "n_sentences": 49,
+      "n_poems": 5,
+      "bootstrap_dist_mean": 0.02470237612724304,
+      "bootstrap_dist_std": 0.007853637643592442
+    },
+    {
+      "name": "孙楚",
+      "tier": "11-50",
+      "n_sentences": 40,
+      "n_poems": 8,
+      "bootstrap_dist_mean": 0.02528529763221741,
+      "bootstrap_dist_std": 0.00582332056842922
+    },
+    {
+      "name": "程晓",
+      "tier": "11-50",
+      "n_sentences": 20,
+      "n_poems": 2,
+      "bootstrap_dist_mean": 0.0410020112991333,
+      "bootstrap_dist_std": 0.006830677045622883
+    },
+    {
+      "name": "刘文中",
+      "tier": "11-50",
+      "n_sentences": 24,
+      "n_poems": 11,
+      "bootstrap_dist_mean": 0.03435690701007843,
+      "bootstrap_dist_std": 0.005080335971086366
+    },
+    {
+      "name": "刘胥",
+      "tier": "11-50",
+      "n_sentences": 11,
+      "n_poems": 1,
+      "bootstrap_dist_mean": 0.08016832172870636,
+      "bootstrap_dist_std": 0.016337999169393633
+    },
+    {
+      "name": "鲍泉",
+      "tier": "11-50",
+      "n_sentences": 40,
+      "n_poems": 9,
+      "bootstrap_dist_mean": 0.0221902459859848,
+      "bootstrap_dist_std": 0.0038972496940570113
+    },
+    {
+      "name": "杨孚",
+      "tier": "11-50",
+      "n_sentences": 42,
+      "n_poems": 12,
+      "bootstrap_dist_mean": 0.01606574058532715,
+      "bootstrap_dist_std": 0.0026590891260765055
+    },
+    {
+      "name": "丁三在",
+      "tier": "11-50",
+      "n_sentences": 40,
+      "n_poems": 11,
+      "bootstrap_dist_mean": 0.018917915225028992,
+      "bootstrap_dist_std": 0.004940839151432518
+    },
+    {
+      "name": "祖珽",
+      "tier": "11-50",
+      "n_sentences": 12,
+      "n_poems": 3,
+      "bootstrap_dist_mean": 0.06357719898223876,
+      "bootstrap_dist_std": 0.008384721415948775
+    },
+    {
+      "name": "陆冲",
+      "tier": "11-50",
+      "n_sentences": 20,
+      "n_poems": 3,
+      "bootstrap_dist_mean": 0.023874399065971375,
+      "bootstrap_dist_std": 0.008241439176100677
+    },
+    {
+      "name": "王训",
+      "tier": "11-50",
+      "n_sentences": 49,
+      "n_poems": 8,
+      "bootstrap_dist_mean": 0.01987805962562561,
+      "bootstrap_dist_std": 0.0038052286347463756
+    },
+    {
+      "name": "郗超",
+      "tier": "11-50",
+      "n_sentences": 28,
+      "n_poems": 1,
+      "bootstrap_dist_mean": 0.02558596432209015,
+      "bootstrap_dist_std": 0.0035413014467285033
+    },
+    {
+      "name": "羊徽",
+      "tier": "11-50",
+      "n_sentences": 44,
+      "n_poems": 2,
+      "bootstrap_dist_mean": 0.01708962321281433,
+      "bootstrap_dist_std": 0.0038573823900501917
+    },
+    {
+      "name": "高爽",
+      "tier": "11-50",
+      "n_sentences": 15,
+      "n_poems": 4,
+      "bootstrap_dist_mean": 0.07620428502559662,
+      "bootstrap_dist_std": 0.030568617555752912
+    },
+    {
+      "name": "嵇喜",
+      "tier": "11-50",
+      "n_sentences": 40,
+      "n_poems": 5,
+      "bootstrap_dist_mean": 0.019224011898040773,
+      "bootstrap_dist_std": 0.00543584811814053
+    },
+    {
+      "name": "息夫躬",
+      "tier": "11-50",
+      "n_sentences": 20,
+      "n_poems": 1,
+      "bootstrap_dist_mean": 0.03879947066307068,
+      "bootstrap_dist_std": 0.006743897091187451
+    },
+    {
+      "name": "何胥",
+      "tier": "11-50",
+      "n_sentences": 17,
+      "n_poems": 4,
+      "bootstrap_dist_mean": 0.05396203100681305,
+      "bootstrap_dist_std": 0.009095402708469735
+    },
+    {
+      "name": "褚渊",
+      "tier": "11-50",
+      "n_sentences": 24,
+      "n_poems": 3,
+      "bootstrap_dist_mean": 0.020451027154922485,
+      "bootstrap_dist_std": 0.0069629446064733294
+    },
+    {
+      "name": "萧纪",
+      "tier": "11-50",
+      "n_sentences": 16,
+      "n_poems": 6,
+      "bootstrap_dist_mean": 0.04780928194522858,
+      "bootstrap_dist_std": 0.007165233674645747
+    },
+    {
+      "name": "王羲之",
+      "tier": "11-50",
+      "n_sentences": 33,
+      "n_poems": 4,
+      "bootstrap_dist_mean": 0.024415957927703857,
+      "bootstrap_dist_std": 0.006661918526154996
+    },
+    {
+      "name": "祁衍曾",
+      "tier": "51-200",
+      "n_sentences": 191,
+      "n_poems": 28,
+      "bootstrap_dist_mean": 0.004975259304046631,
+      "bootstrap_dist_std": 0.000774184257537795
+    },
+    {
+      "name": "储泳",
+      "tier": "51-200",
+      "n_sentences": 132,
+      "n_poems": 37,
+      "bootstrap_dist_mean": 0.01247326135635376,
+      "bootstrap_dist_std": 0.009185989275709286
+    },
+    {
+      "name": "裴迪",
+      "tier": "51-200",
+      "n_sentences": 187,
+      "n_poems": 78,
+      "bootstrap_dist_mean": 0.09508277475833893,
+      "bootstrap_dist_std": 0.11484168435810983
+    },
+    {
+      "name": "吴实",
+      "tier": "51-200",
+      "n_sentences": 129,
+      "n_poems": 26,
+      "bootstrap_dist_mean": 0.031000545620918273,
+      "bootstrap_dist_std": 0.025302738664059684
+    },
+    {
+      "name": "蔡确",
+      "tier": "51-200",
+      "n_sentences": 98,
+      "n_poems": 33,
+      "bootstrap_dist_mean": 0.025213420391082764,
+      "bootstrap_dist_std": 0.019151982202060266
+    },
+    {
+      "name": "洪恩",
+      "tier": "51-200",
+      "n_sentences": 164,
+      "n_poems": 46,
+      "bootstrap_dist_mean": 0.005849993228912354,
+      "bootstrap_dist_std": 0.0012838395653592186
+    },
+    {
+      "name": "张嗣垣",
+      "tier": "51-200",
+      "n_sentences": 86,
+      "n_poems": 21,
+      "bootstrap_dist_mean": 0.009820842742919922,
+      "bootstrap_dist_std": 0.001955410056165025
+    },
+    {
+      "name": "江庸",
+      "tier": "51-200",
+      "n_sentences": 181,
+      "n_poems": 51,
+      "bootstrap_dist_mean": 0.004717379808425903,
+      "bootstrap_dist_std": 0.0009888833970413528
+    },
+    {
+      "name": "金庸",
+      "tier": "51-200",
+      "n_sentences": 156,
+      "n_poems": 32,
+      "bootstrap_dist_mean": 0.0039017975330352785,
+      "bootstrap_dist_std": 0.0032671604904741668
+    },
+    {
+      "name": "潘纬",
+      "tier": "51-200",
+      "n_sentences": 135,
+      "n_poems": 37,
+      "bootstrap_dist_mean": 0.007445675134658813,
+      "bootstrap_dist_std": 0.0013600207963897547
+    },
+    {
+      "name": "赵文哲",
+      "tier": "51-200",
+      "n_sentences": 159,
+      "n_poems": 23,
+      "bootstrap_dist_mean": 0.1678579717874527,
+      "bootstrap_dist_std": 0.22725091879498652
+    },
+    {
+      "name": "蔡国琳",
+      "tier": "51-200",
+      "n_sentences": 178,
+      "n_poems": 35,
+      "bootstrap_dist_mean": 0.004608055949211121,
+      "bootstrap_dist_std": 0.0007865868677818499
+    },
+    {
+      "name": "欧阳鈇",
+      "tier": "51-200",
+      "n_sentences": 100,
+      "n_poems": 38,
+      "bootstrap_dist_mean": 0.018594595789909362,
+      "bootstrap_dist_std": 0.009996031887867992
+    },
+    {
+      "name": "魏称",
+      "tier": "51-200",
+      "n_sentences": 139,
+      "n_poems": 35,
+      "bootstrap_dist_mean": 0.017157337069511412,
+      "bootstrap_dist_std": 0.024875405574787006
+    },
+    {
+      "name": "卢鸿一",
+      "tier": "51-200",
+      "n_sentences": 151,
+      "n_poems": 29,
+      "bootstrap_dist_mean": 0.003174898028373718,
+      "bootstrap_dist_std": 0.00814698556169042
+    },
+    {
+      "name": "黄家鼎",
+      "tier": "51-200",
+      "n_sentences": 112,
+      "n_poems": 18,
+      "bootstrap_dist_mean": 0.0054211229085922245,
+      "bootstrap_dist_std": 0.0009717188909601622
+    },
+    {
+      "name": "金銮",
+      "tier": "51-200",
+      "n_sentences": 132,
+      "n_poems": 38,
+      "bootstrap_dist_mean": 0.007142117619514466,
+      "bootstrap_dist_std": 0.001271727494441919
+    },
+    {
+      "name": "侯学愈",
+      "tier": "51-200",
+      "n_sentences": 124,
+      "n_poems": 28,
+      "bootstrap_dist_mean": 0.0071166038513183595,
+      "bootstrap_dist_std": 0.0017589366655723353
+    },
+    {
+      "name": "钱少华",
+      "tier": "51-200",
+      "n_sentences": 80,
+      "n_poems": 21,
+      "bootstrap_dist_mean": 0.008453369140625,
+      "bootstrap_dist_std": 0.0017686416410030228
+    },
+    {
+      "name": "屠瑶瑟",
+      "tier": "51-200",
+      "n_sentences": 53,
+      "n_poems": 20,
+      "bootstrap_dist_mean": 0.01435820758342743,
+      "bootstrap_dist_std": 0.002836714055289888
+    },
+    {
+      "name": "徐兆玮",
+      "tier": "200+",
+      "n_sentences": 565,
+      "n_poems": 98,
+      "bootstrap_dist_mean": 0.06001141369342804,
+      "bootstrap_dist_std": 0.17974797132387224
+    },
+    {
+      "name": "冯伯规",
+      "tier": "200+",
+      "n_sentences": 218,
+      "n_poems": 47,
+      "bootstrap_dist_mean": 0.003993114829063416,
+      "bootstrap_dist_std": 0.0005823067503656212
+    },
+    {
+      "name": "李煜",
+      "tier": "200+",
+      "n_sentences": 620,
+      "n_poems": 141,
+      "bootstrap_dist_mean": 0.0007161378860473632,
+      "bootstrap_dist_std": 0.0012083998288790997
+    },
+    {
+      "name": "杨炯",
+      "tier": "200+",
+      "n_sentences": 512,
+      "n_poems": 65,
+      "bootstrap_dist_mean": 0.018542391061782838,
+      "bootstrap_dist_std": 0.06021219891539388
+    },
+    {
+      "name": "盧照鄰",
+      "tier": "200+",
+      "n_sentences": 715,
+      "n_poems": 119,
+      "bootstrap_dist_mean": 0.016175004839897155,
+      "bootstrap_dist_std": 0.023849829925958677
+    },
+    {
+      "name": "陈舜俞",
+      "tier": "200+",
+      "n_sentences": 1878,
+      "n_poems": 267,
+      "bootstrap_dist_mean": 0.010385873913764953,
+      "bootstrap_dist_std": 0.01767533811257651
+    },
+    {
+      "name": "惟则",
+      "tier": "200+",
+      "n_sentences": 298,
+      "n_poems": 67,
+      "bootstrap_dist_mean": 0.03823049962520599,
+      "bootstrap_dist_std": 0.06747081996110817
+    },
+    {
+      "name": "戴良",
+      "tier": "200+",
+      "n_sentences": 2940,
+      "n_poems": 337,
+      "bootstrap_dist_mean": 0.00047577023506164553,
+      "bootstrap_dist_std": 0.0014865496923884788
+    },
+    {
+      "name": "郑思肖",
+      "tier": "200+",
+      "n_sentences": 3171,
+      "n_poems": 594,
+      "bootstrap_dist_mean": 0.0010315954685211181,
+      "bootstrap_dist_std": 0.001676613834913763
+    },
+    {
+      "name": "石孝友",
+      "tier": "200+",
+      "n_sentences": 2087,
+      "n_poems": 245,
+      "bootstrap_dist_mean": 0.00032716691493988036,
+      "bootstrap_dist_std": 0.0011245844917436305
+    },
+    {
+      "name": "沈一贯",
+      "tier": "200+",
+      "n_sentences": 231,
+      "n_poems": 42,
+      "bootstrap_dist_mean": 0.002924230694770813,
+      "bootstrap_dist_std": 0.002373206271216172
+    },
+    {
+      "name": "李文蔚",
+      "tier": "200+",
+      "n_sentences": 541,
+      "n_poems": 87,
+      "bootstrap_dist_mean": 0.00013154447078704833,
+      "bootstrap_dist_std": 6.39290435847932e-05
+    },
+    {
+      "name": "郑学醇",
+      "tier": "200+",
+      "n_sentences": 3158,
+      "n_poems": 671,
+      "bootstrap_dist_mean": 0.003562423586845398,
+      "bootstrap_dist_std": 0.0038540498645449933
+    },
+    {
+      "name": "邓潜",
+      "tier": "200+",
+      "n_sentences": 1703,
+      "n_poems": 178,
+      "bootstrap_dist_mean": 0.0036000192165374758,
+      "bootstrap_dist_std": 0.011320620396066702
+    },
+    {
+      "name": "边贡",
+      "tier": "200+",
+      "n_sentences": 7675,
+      "n_poems": 1676,
+      "bootstrap_dist_mean": 4.926919937133789e-05,
+      "bootstrap_dist_std": 1.000599204644696e-05
+    },
+    {
+      "name": "王十朋",
+      "tier": "200+",
+      "n_sentences": 15948,
+      "n_poems": 3424,
+      "bootstrap_dist_mean": 0.00030966997146606443,
+      "bootstrap_dist_std": 0.0006488003286025231
+    },
+    {
+      "name": "徐祯卿",
+      "tier": "200+",
+      "n_sentences": 1576,
+      "n_poems": 256,
+      "bootstrap_dist_mean": 0.00018962621688842774,
+      "bootstrap_dist_std": 2.3634345779266783e-05
+    },
+    {
+      "name": "汪岳尊",
+      "tier": "200+",
+      "n_sentences": 724,
+      "n_poems": 89,
+      "bootstrap_dist_mean": 0.0006762444972991943,
+      "bootstrap_dist_std": 0.0003281408995821085
+    },
+    {
+      "name": "范镇",
+      "tier": "200+",
+      "n_sentences": 515,
+      "n_poems": 119,
+      "bootstrap_dist_mean": 0.0020659178495407104,
+      "bootstrap_dist_std": 0.0003507562757530477
+    },
+    {
+      "name": "楊巨源",
+      "tier": "200+",
+      "n_sentences": 801,
+      "n_poems": 169,
+      "bootstrap_dist_mean": 0.09217592775821686,
+      "bootstrap_dist_std": 0.17239676443564336
+    }
+  ]
+}

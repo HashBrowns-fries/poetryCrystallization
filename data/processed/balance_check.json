@@ -1,0 +1,14 @@
+{
+  "r2_full": 0.171759,
+  "r2_balanced_mean": 0.802251,
+  "r2_balanced_median": 0.802667,
+  "r2_balanced_std": 0.010344,
+  "r2_balanced_ci_low": 0.785303,
+  "r2_balanced_ci_high": 0.821749,
+  "diff": 0.630492,
+  "verdict": "✓ 平衡后ci效应仍≥原始70%，样本量不平衡未夸大ci效应",
+  "n_boots": 100,
+  "ci_n": 210,
+  "balanced_shi_n": 210,
+  "qu_n": 94
+}

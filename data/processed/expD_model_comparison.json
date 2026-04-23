@@ -1,0 +1,16 @@
+{
+  "n_ci": 210,
+  "n_shi": 4330,
+  "split": "80/20 stratified",
+  "classifier": "LogisticRegression(C=1.0)",
+  "BERT-CCPoem": {
+    "acc": 0.9581,
+    "f1": 0.6885
+  },
+  "GuwenBERT": {
+    "acc": 0.8491,
+    "f1": 0.3046
+  },
+  "acc_diff_ccpoem_minus_gwen": 0.109,
+  "interpretation": "BERT-CCPoem 优于GuwenBERT 10.90%"
+}

@@ -1,0 +1,10 @@
+{
+  "model": "BERT-CCPoem v1.0",
+  "pooling": "weighted_mean_of_lines",
+  "weight_fn": "sqrt(line_length)",
+  "hidden_size": 512,
+  "n_poets": 4634,
+  "total_lines": 9809112,
+  "batch_size": 4096,
+  "devices": 2
+}

@@ -1,0 +1,226 @@
+{
+  "task": "poem-level shi/ci/qu 3-class classification",
+  "model": "BERT-CCPoem",
+  "model_path": "/home/chenhao/poetry-phylogeny/data/models/BERT_CCPoem_v1",
+  "seed": 42,
+  "n_shi": 10000,
+  "n_ci": 10000,
+  "n_qu": 10000,
+  "total": 30000,
+  "n_folds": 10,
+  "epochs": 3,
+  "batch_size": 32,
+  "ablation": {
+    "A1": {
+      "acc": 0.9838333333333333,
+      "f1_macro": 0.9838236324442077,
+      "f1_shi": 0.9970044932601099,
+      "f1_ci": 0.9770114942528736,
+      "f1_qu": 0.9774549098196392,
+      "auc": 0.9991805,
+      "acc_std": 0.0,
+      "f1_macro_std": 0.0,
+      "f1_shi_std": 0.0,
+      "f1_ci_std": 0.0,
+      "f1_qu_std": 0.0,
+      "auc_std": 0.0,
+      "cm_mean": [
+        [
+          1997.0,
+          1.0,
+          2.0
+        ],
+        [
+          6.0,
+          1955.0,
+          39.0
+        ],
+        [
+          3.0,
+          46.0,
+          1951.0
+        ]
+      ],
+      "n_folds": "80/20 split",
+      "config": {
+        "name": "A1",
+        "pooling": "mean",
+        "loss": "ce",
+        "focal_gamma": null
+      },
+      "lr": 2e-05,
+      "max_len": 256,
+      "epochs": 3,
+      "elapsed_min": 5.989649593830109
+    },
+    "A2": {
+      "acc": 0.9846666666666667,
+      "f1_macro": 0.9846601040724524,
+      "f1_shi": 0.9967540574282148,
+      "f1_ci": 0.9780439121756487,
+      "f1_qu": 0.9791823426134939,
+      "auc": 0.99915125,
+      "acc_std": 0.0,
+      "f1_macro_std": 0.0,
+      "f1_shi_std": 0.0,
+      "f1_ci_std": 0.0,
+      "f1_qu_std": 0.0,
+      "auc_std": 0.0,
+      "cm_mean": [
+        [
+          1996.0,
+          3.0,
+          1.0
+        ],
+        [
+          6.0,
+          1960.0,
+          34.0
+        ],
+        [
+          3.0,
+          45.0,
+          1952.0
+        ]
+      ],
+      "n_folds": "80/20 split",
+      "config": {
+        "name": "A2",
+        "pooling": "mean",
+        "loss": "focal",
+        "focal_gamma": 2.0
+      },
+      "lr": 2e-05,
+      "max_len": 256,
+      "epochs": 3,
+      "elapsed_min": 6.0850952625274655
+    },
+    "A3": {
+      "acc": 0.9808333333333333,
+      "f1_macro": 0.9808301358342865,
+      "f1_shi": 0.9960019990004998,
+      "f1_ci": 0.9727976041926628,
+      "f1_qu": 0.9736908043096968,
+      "auc": 0.9987639166666668,
+      "acc_std": 0.0,
+      "f1_macro_std": 0.0,
+      "f1_shi_std": 0.0,
+      "f1_ci_std": 0.0,
+      "f1_qu_std": 0.0,
+      "auc_std": 0.0,
+      "cm_mean": [
+        [
+          1993.0,
+          3.0,
+          4.0
+        ],
+        [
+          7.0,
+          1949.0,
+          44.0
+        ],
+        [
+          2.0,
+          55.0,
+          1943.0
+        ]
+      ],
+      "n_folds": "80/20 split",
+      "config": {
+        "name": "A3",
+        "pooling": "mean",
+        "loss": "focal",
+        "focal_gamma": 2.0
+      },
+      "lr": 1e-05,
+      "max_len": 256,
+      "epochs": 3,
+      "elapsed_min": 6.10020702679952
+    },
+    "A4": {
+      "acc": 0.9808333333333333,
+      "f1_macro": 0.9808301358342865,
+      "f1_shi": 0.9960019990004998,
+      "f1_ci": 0.9727976041926628,
+      "f1_qu": 0.9736908043096968,
+      "auc": 0.9987639166666668,
+      "acc_std": 0.0,
+      "f1_macro_std": 0.0,
+      "f1_shi_std": 0.0,
+      "f1_ci_std": 0.0,
+      "f1_qu_std": 0.0,
+      "auc_std": 0.0,
+      "cm_mean": [
+        [
+          1993.0,
+          3.0,
+          4.0
+        ],
+        [
+          7.0,
+          1949.0,
+          44.0
+        ],
+        [
+          2.0,
+          55.0,
+          1943.0
+        ]
+      ],
+      "n_folds": "80/20 split",
+      "config": {
+        "name": "A4",
+        "pooling": "mean",
+        "loss": "focal",
+        "focal_gamma": 2.0
+      },
+      "lr": 1e-05,
+      "max_len": 256,
+      "epochs": 3,
+      "elapsed_min": 6.105904332796732
+    }
+  },
+  "best_config": "A2",
+  "best_result": {
+    "acc": 0.9846666666666667,
+    "f1_macro": 0.9846601040724524,
+    "f1_shi": 0.9967540574282148,
+    "f1_ci": 0.9780439121756487,
+    "f1_qu": 0.9791823426134939,
+    "auc": 0.99915125,
+    "acc_std": 0.0,
+    "f1_macro_std": 0.0,
+    "f1_shi_std": 0.0,
+    "f1_ci_std": 0.0,
+    "f1_qu_std": 0.0,
+    "auc_std": 0.0,
+    "cm_mean": [
+      [
+        1996.0,
+        3.0,
+        1.0
+      ],
+      [
+        6.0,
+        1960.0,
+        34.0
+      ],
+      [
+        3.0,
+        45.0,
+        1952.0
+      ]
+    ],
+    "n_folds": "80/20 split",
+    "config": {
+      "name": "A2",
+      "pooling": "mean",
+      "loss": "focal",
+      "focal_gamma": 2.0
+    },
+    "lr": 2e-05,
+    "max_len": 256,
+    "epochs": 3,
+    "elapsed_min": 6.0850952625274655
+  }
+}

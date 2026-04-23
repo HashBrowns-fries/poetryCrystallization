@@ -1,0 +1,12 @@
+{
+  "method": "cosine_distance",
+  "distance": "1 - cosine_similarity",
+  "distance_range": [
+    0.0003083348274230957,
+    0.8151931762695312
+  ],
+  "mean_distance": 0.11908509582281113,
+  "n_poets": 4634,
+  "embedding_dim": 512,
+  "input_file": "/home/chenhao/poetry-phylogeny/data/processed/poet_embeddings.npy"
+}

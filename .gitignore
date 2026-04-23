@@ -1,0 +1,59 @@
+# 归档（已废弃）
+scripts/_archive/
+data/figures/_archive_v1/
+_archive/
+
+# 构建产物
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Python / Node
+node_modules/
+uv.lock
+.pytest_cache/
+
+# LaTeX 辅助文件
+paper.aux
+paper.out
+paper.log
+paper.fls
+paper.fdb_latexmk
+paper.synctex.gz
+paper.bbl
+paper.blg
+paper.run.xml
+
+# 中间结果（可从代码重建）
+results/analysis_H*.json
+results/analysis_H*.png
+results/embedding_log.txt
+results/research_report.md
+results/tree_*.pdf
+results/tree_*.png
+results/tree_*.html
+results/figures/
+results/trees/
+
+# 字体
+fonts_offline/
+
+# 幻灯片（可保留，但可忽略大型 zip）
+paper/*.pdf
+slides_presentation*.html
+slides_presentation*.zip
+
+# 大数据文件（仅上传实验结果JSON，其他由脚本生成或用户提供）
+data/processed/*.npy
+data/processed/*.npz
+data/processed/poet_poems*.json
+data/processed/merged_corpus.json
+data/processed/best_bert_cipclassifier.pt
+data/processed/sentence_embeddings_by_poet.npz
+data/models/
+data/raw/
+data/cbdb/
+paper.pdf
+.venv/
+.researchclaw_cache/

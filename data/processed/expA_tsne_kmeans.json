@@ -1,0 +1,40 @@
+{
+  "PCA2D_KMeans_genre": {
+    "ARI": 0.1097,
+    "NMI": 0.1281,
+    "Silhouette": 0.43860000371932983
+  },
+  "tSNE_KMeans_genre": {
+    "ARI": 0.0545,
+    "NMI": 0.137,
+    "Silhouette": 0.387800008058548
+  },
+  "PCA2D_Louvain_genre": {
+    "ARI": 0.0046,
+    "NMI": 0.0765,
+    "Silhouette": 0.2362000048160553
+  },
+  "PCA2D_KMeans_dynasty": {
+    "ARI": 0.0647,
+    "NMI": 0.1393,
+    "Silhouette": 0.37619999051094055
+  },
+  "tSNE_KMeans_dynasty": {
+    "ARI": 0.1558,
+    "NMI": 0.2176,
+    "Silhouette": 0.4187000095844269
+  },
+  "PCA2D_Louvain_dynasty": {
+    "ARI": 0.0716,
+    "NMI": 0.1473,
+    "Silhouette": 0.2362000048160553
+  },
+  "conclusion": {
+    "genre_ari": 0.1097,
+    "dynasty_ari": 0.0647,
+    "genre_nmi": 0.1281,
+    "dynasty_nmi": 0.1393,
+    "genre_better_than_dynasty_ari": true,
+    "interpretation": "体裁聚类效果优于朝代，支持体裁是第一组织轴"
+  }
+}

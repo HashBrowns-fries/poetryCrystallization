@@ -1,0 +1,49 @@
+{
+  "model": "BERT-CCPoem (THUNLP-AIPoet, local)",
+  "model_path": "/home/chenhao/poetry-phylogeny/data/models/BERT_CCPoem_v1",
+  "seed": 42,
+  "data_note": "poet_poems.json 每诗人只有text拼接字段，按256字切分chunk",
+  "train_samples": 10000,
+  "val_samples": 22111,
+  "epochs_trained": 2,
+  "max_epochs": 5,
+  "learning_rate": 2e-05,
+  "batch_size": 32,
+  "max_grad_norm": 1.0,
+  "early_stopping_patience": 1,
+  "eval_step": 100,
+  "split_method": "poet_level（诗人级分割，同一诗人所有chunk同在train或val）",
+  "final_acc": 0.8504,
+  "final_macro_f1": 0.6382,
+  "final_shi_f1": 0.9153,
+  "final_ci_f1": 0.3611,
+  "class_weight_balanced_F1": 0.5754,
+  "class_weight_balanced_ci_F1": 0.2853,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.51257,
+      "acc": 0.8281,
+      "macro_f1": 0.6148,
+      "shi_f1": 0.9015,
+      "ci_f1": 0.3281
+    },
+    {
+      "epoch": 2,
+      "loss": 0.41933,
+      "acc": 0.8504,
+      "macro_f1": 0.6382,
+      "shi_f1": 0.9153,
+      "ci_f1": 0.3611
+    },
+    {
+      "epoch": 3,
+      "loss": 0.37067,
+      "acc": 0.7477,
+      "macro_f1": 0.5596,
+      "shi_f1": 0.8474,
+      "ci_f1": 0.2718
+    }
+  ],
+  "interpretation": "BERT微调后ci/shi分类准确率85.0%（最佳epoch=2），体裁效应被BERT有效捕获，形式约束在预训练表征中有强信号。诗人级分割保证无数据泄漏。"
+}

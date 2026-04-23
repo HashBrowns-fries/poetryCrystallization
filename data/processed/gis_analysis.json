@@ -1,0 +1,29 @@
+{
+  "n_geocoded_poets": 919,
+  "n_rel_pairs_geo": 53,
+  "mantel_rel": {
+    "rho": 0.1290543673534132,
+    "p": 0.3570577490554882
+  },
+  "mantel_rand": {
+    "rho": 0.10759368478582404,
+    "p": 0.08041260216460275
+  },
+  "geo_dist_rel_vs_rand": {
+    "rel_mean_km": 695.867950036644,
+    "rel_median_km": 684.4752067755318,
+    "rand_mean_km": 795.2632344075588,
+    "rand_median_km": 796.1886711241096,
+    "mannwhitney_p": 0.990633816982958
+  },
+  "within_vs_cross_dynasty": {
+    "within_mean_km": 728.379033887833,
+    "cross_mean_km": 761.8041459556921,
+    "p": 0.990633816982958
+  },
+  "nearest_neighbor": {
+    "rel_nn_mean_sem": 0.12118542081904861,
+    "rand_nn_mean_sem": 0.10005610257387161,
+    "p": 0.990633816982958
+  }
+}

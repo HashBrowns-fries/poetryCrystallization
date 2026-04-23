@@ -1,0 +1,122 @@
+{
+  "summary": {
+    "drift_mean": 0.035253459215164186,
+    "drift_median": 0.032994866371154785,
+    "adj_dist_mean": 0.331267634701968,
+    "adj_dist_rho_mean": -0.054385939709546374,
+    "n_positive_drift": 10,
+    "n_total": 10
+  },
+  "poets": [
+    {
+      "poet": "陆游",
+      "n_poems_computed": 300,
+      "drift_early_vs_late": 0.009728491306304932,
+      "adj_dist_mean": 0.3374070993633972,
+      "adj_dist_rho": -0.36671185831967856,
+      "adj_dist_p": 5.995240461320528e-11,
+      "early_cohesion": 0.39633324843464474,
+      "late_cohesion": 0.3403433510149368,
+      "early_vs_late_diff": 0.055989897419707946
+    },
+    {
+      "poet": "白居易",
+      "n_poems_computed": 300,
+      "drift_early_vs_late": 0.07545006275177002,
+      "adj_dist_mean": 0.30658224075534274,
+      "adj_dist_rho": -0.200573724495522,
+      "adj_dist_p": 0.0004843954571936428,
+      "early_cohesion": 0.4135755456336821,
+      "late_cohesion": 0.3724597618074128,
+      "early_vs_late_diff": 0.04111578382626929
+    },
+    {
+      "poet": "王世贞",
+      "n_poems_computed": 300,
+      "drift_early_vs_late": 0.06039857864379883,
+      "adj_dist_mean": 0.3108640420795683,
+      "adj_dist_rho": 0.23102062804426388,
+      "adj_dist_p": 5.5146292279917646e-05,
+      "early_cohesion": 0.443777607607119,
+      "late_cohesion": 0.3859820583011165,
+      "early_vs_late_diff": 0.0577955493060025
+    },
+    {
+      "poet": "刘克庄",
+      "n_poems_computed": 300,
+      "drift_early_vs_late": 0.008152186870574951,
+      "adj_dist_mean": 0.35861531946571373,
+      "adj_dist_rho": -0.1497183003748513,
+      "adj_dist_p": 0.0095237777649374,
+      "early_cohesion": 0.4086787103282081,
+      "late_cohesion": 0.3328800939550303,
+      "early_vs_late_diff": 0.07579861637317775
+    },
+    {
+      "poet": "屈大均",
+      "n_poems_computed": 300,
+      "drift_early_vs_late": 0.04633760452270508,
+      "adj_dist_mean": 0.366612680580305,
+      "adj_dist_rho": 0.024284527844492827,
+      "adj_dist_p": 0.6757851565251018,
+      "early_cohesion": 0.42140244839167357,
+      "late_cohesion": 0.46494810496917877,
+      "early_vs_late_diff": -0.0435456565775052
+    },
+    {
+      "poet": "无名氏",
+      "n_poems_computed": 300,
+      "drift_early_vs_late": 0.06124997138977051,
+      "adj_dist_mean": 0.24577978741763826,
+      "adj_dist_rho": 0.35405714798769955,
+      "adj_dist_p": 2.940590322350248e-10,
+      "early_cohesion": 0.24367235447421218,
+      "late_cohesion": 0.46425985714401863,
+      "early_vs_late_diff": -0.22058750266980645
+    },
+    {
+      "poet": "杨万里",
+      "n_poems_computed": 300,
+      "drift_early_vs_late": 0.007761716842651367,
+      "adj_dist_mean": 0.390315610429515,
+      "adj_dist_rho": -0.12290229175551615,
+      "adj_dist_p": 0.03364192982871244,
+      "early_cohesion": 0.4517255804996298,
+      "late_cohesion": 0.41062038733501627,
+      "early_vs_late_diff": 0.04110519316461353
+    },
+    {
+      "poet": "赵蕃",
+      "n_poems_computed": 300,
+      "drift_early_vs_late": 0.019652128219604492,
+      "adj_dist_mean": 0.35325007215391435,
+      "adj_dist_rho": -0.05033467262238782,
+      "adj_dist_p": 0.3857929631462938,
+      "early_cohesion": 0.36868935446546536,
+      "late_cohesion": 0.3367428093486362,
+      "early_vs_late_diff": 0.03194654511682915
+    },
+    {
+      "poet": "苏轼",
+      "n_poems_computed": 300,
+      "drift_early_vs_late": 0.009163856506347656,
+      "adj_dist_mean": 0.30707369699924686,
+      "adj_dist_rho": -0.050601333303405084,
+      "adj_dist_p": 0.3832779202554977,
+      "early_cohesion": 0.40635667879172044,
+      "late_cohesion": 0.3930703975576343,
+      "early_vs_late_diff": 0.01328628123408615
+    },
+    {
+      "poet": "梅尧臣",
+      "n_poems_computed": 300,
+      "drift_early_vs_late": 0.054639995098114014,
+      "adj_dist_mean": 0.3361757977750389,
+      "adj_dist_rho": -0.21237952010055894,
+      "adj_dist_p": 0.00021620234877975535,
+      "early_cohesion": 0.3833766686555111,
+      "late_cohesion": 0.3682700779823342,
+      "early_vs_late_diff": 0.015106590673176934
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "exp1_genre_permanova": {
+    "R2": 0.171759,
+    "F": 480.1835,
+    "k": 3,
+    "df_b": 2,
+    "df_w": 4631,
+    "p": 0.0,
+    "sig": "***",
+    "n_perm": 999
+  },
+  "exp1_dynasty_permanova": {
+    "R2": 0.890745,
+    "F": 6287.2273,
+    "k": 7,
+    "df_b": 6,
+    "df_w": 4627,
+    "p": 0.0,
+    "sig": "***",
+    "n_perm": 999
+  },
+  "exp2_two_factor": {
+    "R2_genre_cond": 0.014,
+    "R2_dynasty_cond": 0.733,
+    "R2_interaction": 0.0,
+    "R2_joint": 0.9047,
+    "R2_residual": 0.0953,
+    "p_genre": 0.0,
+    "p_dynasty": 0.2828,
+    "sig_g": "***",
+    "sig_d": "n.s."
+  },
+  "exp2_dynasty_ci_shi": [],
+  "bootstrap_genre_R2": {
+    "point_R2": 0.1243,
+    "median_R2": 0.1249,
+    "ci_low": 0.1057,
+    "ci_high": 0.1431,
+    "n_boot": 500
+  },
+  "summary": {
+    "genre_R2": 0.171759,
+    "dynasty_R2": 0.890745,
+    "genre_cond_R2": 0.014,
+    "dynasty_cond_R2": 0.733,
+    "genre_dominates": false,
+    "interaction_R2": 0.0,
+    "sig_genre_cond": "***",
+    "sig_dyn_cond": "n.s.",
+    "interpretation": "体裁纯效应R²=0.0140，朝代效应强于体裁"
+  }
+}

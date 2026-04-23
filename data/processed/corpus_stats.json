@@ -1,0 +1,121 @@
+{
+  "total_poets": 4634,
+  "total_poems": 915036,
+  "dynasty_distribution": {
+    "宋": 949,
+    "清": 927,
+    "明": 783,
+    "唐": 680,
+    "元": 387,
+    "近代": 309,
+    "晋": 227,
+    "南北朝": 154,
+    "当代": 110,
+    "汉": 65,
+    "隋": 28,
+    "周": 14,
+    "未知": 1
+  },
+  "top_poets": [
+    {
+      "name": "李白",
+      "dynasty": "唐",
+      "poem_count": 2000
+    },
+    {
+      "name": "元稹",
+      "dynasty": "唐",
+      "poem_count": 2000
+    },
+    {
+      "name": "杜甫",
+      "dynasty": "唐",
+      "poem_count": 2000
+    },
+    {
+      "name": "白居易",
+      "dynasty": "唐",
+      "poem_count": 2000
+    },
+    {
+      "name": "赵蕃",
+      "dynasty": "宋",
+      "poem_count": 2000
+    },
+    {
+      "name": "宋祁",
+      "dynasty": "宋",
+      "poem_count": 2000
+    },
+    {
+      "name": "梅尧臣",
+      "dynasty": "宋",
+      "poem_count": 2000
+    },
+    {
+      "name": "司马光",
+      "dynasty": "宋",
+      "poem_count": 2000
+    },
+    {
+      "name": "刘敞",
+      "dynasty": "宋",
+      "poem_count": 2000
+    },
+    {
+      "name": "王安石",
+      "dynasty": "宋",
+      "poem_count": 2000
+    },
+    {
+      "name": "苏轼",
+      "dynasty": "宋",
+      "poem_count": 2000
+    },
+    {
+      "name": "苏辙",
+      "dynasty": "宋",
+      "poem_count": 2000
+    },
+    {
+      "name": "郭祥正",
+      "dynasty": "宋",
+      "poem_count": 2000
+    },
+    {
+      "name": "范成大",
+      "dynasty": "宋",
+      "poem_count": 2000
+    },
+    {
+      "name": "杨万里",
+      "dynasty": "宋",
+      "poem_count": 2000
+    },
+    {
+      "name": "朱熹",
+      "dynasty": "宋",
+      "poem_count": 2000
+    },
+    {
+      "name": "楼钥",
+      "dynasty": "宋",
+      "poem_count": 2000
+    },
+    {
+      "name": "韩淲",
+      "dynasty": "宋",
+      "poem_count": 2000
+    },
+    {
+      "name": "刘克庄",
+      "dynasty": "宋",
+      "poem_count": 2000
+    },
+    {
+      "name": "方岳",
+      "dynasty": "宋",
+      "poem_count": 2000
+    }
+  ]
+}

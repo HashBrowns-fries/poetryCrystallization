@@ -1,0 +1,12 @@
+{
+  "observed_genre_purity": 0.9557,
+  "null_mean": 0.9345,
+  "null_std": 0.0037,
+  "null_low": 0.9183,
+  "null_high": 0.9455,
+  "p_value": 0.0,
+  "sig": "***",
+  "n_perm": 999,
+  "n_communities": 88,
+  "interpretation": "观察纯度0.9557 vs 随机shuffle均值0.9345，超出100.0%的置换，***"
+}

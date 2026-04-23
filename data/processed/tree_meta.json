@@ -1,0 +1,17 @@
+{
+  "n_poets": 4634,
+  "methods": [
+    "UPGMA",
+    "WPGMA",
+    "Ward"
+  ],
+  "distance_metric": "cosine_distance",
+  "output_files": {
+    "upgma_linkage": "tree_upgma_linkage.npy",
+    "upgma_tree": "tree_upgma.json",
+    "wpgma_linkage": "tree_wpgma_linkage.npy",
+    "wpgma_tree": "tree_wpgma.json",
+    "ward_linkage": "tree_ward_linkage.npy",
+    "ward_tree": "tree_ward.json"
+  }
+}
