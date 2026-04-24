@@ -30,6 +30,7 @@ uv sync
 | `scripts/balance_check.py` | 类别平衡 PERMANOVA |
 | `scripts/permdisp_test.py` | 散布效应 Levene 检验 |
 | `scripts/louvain_purity_null.py` | Louvain 纯度零假设检验 |
+| `scripts/expE_cipai_counterfactual.py` | 词牌级别反事实实验（形式约束机制验证） |
 
 ## 可视化
 
