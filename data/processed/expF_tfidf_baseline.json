@@ -1,0 +1,22 @@
+{
+  "method": "TF-IDF char-ngram(1,3) first300chars + LogReg(balanced, max_iter=5000)",
+  "n_samples": 4032,
+  "vocab_size": 10000,
+  "genre_binary": {
+    "macro_f1_mean": 0.4671,
+    "macro_f1_std": 0.0638,
+    "accuracy_mean": 0.8256,
+    "accuracy_std": 0.1793
+  },
+  "dynasty_6class": {
+    "macro_f1_mean": 0.6712,
+    "macro_f1_std": 0.012,
+    "accuracy_mean": 0.7148,
+    "accuracy_std": 0.0088
+  },
+  "genre_within_song_f1": 0.4906,
+  "genre_within_qing_f1": 0.4622,
+  "dynasty_within_shi_f1": 0.6689,
+  "dynasty_within_ci_f1": 0.3292,
+  "key_finding": "Genre binary F1=0.4671, Dynasty 6-class F1=0.6712. Genre-in-Song (same dynasty!): F1=0.4906 — genre signal persists within single dynasty. Dynasty-in-Shi (same genre!): F1=0.6689."
+}

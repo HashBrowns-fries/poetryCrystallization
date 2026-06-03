@@ -1,0 +1,358 @@
+{
+  "cross_dynasty_genre": {
+    "唐→宋": {
+      "train_n": 680,
+      "test_n": 949,
+      "accuracy": 0.9874,
+      "macro_f1": 0.5534,
+      "train_classes": [
+        "qu",
+        "shi",
+        "ci"
+      ]
+    },
+    "唐→元": {
+      "train_n": 680,
+      "test_n": 387,
+      "accuracy": 0.9845,
+      "macro_f1": 0.3307,
+      "train_classes": [
+        "qu",
+        "shi",
+        "ci"
+      ]
+    },
+    "唐→明": {
+      "train_n": 680,
+      "test_n": 783,
+      "accuracy": 0.9757,
+      "macro_f1": 0.4504,
+      "train_classes": [
+        "qu",
+        "shi",
+        "ci"
+      ]
+    },
+    "唐→清": {
+      "train_n": 680,
+      "test_n": 927,
+      "accuracy": 0.9784,
+      "macro_f1": 0.3297,
+      "train_classes": [
+        "qu",
+        "shi",
+        "ci"
+      ]
+    },
+    "唐→近代": {
+      "train_n": 680,
+      "test_n": 309,
+      "accuracy": 0.9871,
+      "macro_f1": 0.3312,
+      "train_classes": [
+        "qu",
+        "shi",
+        "ci"
+      ]
+    },
+    "宋→唐": {
+      "train_n": 949,
+      "test_n": 678,
+      "accuracy": 0.882,
+      "macro_f1": 0.5034,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    },
+    "宋→元": {
+      "train_n": 949,
+      "test_n": 386,
+      "accuracy": 0.9171,
+      "macro_f1": 0.4784,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    },
+    "宋→明": {
+      "train_n": 949,
+      "test_n": 783,
+      "accuracy": 0.8978,
+      "macro_f1": 0.5473,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    },
+    "宋→清": {
+      "train_n": 949,
+      "test_n": 927,
+      "accuracy": 0.9666,
+      "macro_f1": 0.5218,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    },
+    "宋→近代": {
+      "train_n": 949,
+      "test_n": 309,
+      "accuracy": 0.9871,
+      "macro_f1": 0.4967,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    },
+    "元→唐": {
+      "train_n": 387,
+      "test_n": 680,
+      "accuracy": 0.9853,
+      "macro_f1": 0.3309,
+      "train_classes": [
+        "qu",
+        "shi",
+        "ci"
+      ]
+    },
+    "元→宋": {
+      "train_n": 387,
+      "test_n": 949,
+      "accuracy": 0.9842,
+      "macro_f1": 0.496,
+      "train_classes": [
+        "qu",
+        "shi",
+        "ci"
+      ]
+    },
+    "元→明": {
+      "train_n": 387,
+      "test_n": 783,
+      "accuracy": 0.9898,
+      "macro_f1": 0.4974,
+      "train_classes": [
+        "qu",
+        "shi",
+        "ci"
+      ]
+    },
+    "元→清": {
+      "train_n": 387,
+      "test_n": 927,
+      "accuracy": 0.9838,
+      "macro_f1": 0.4959,
+      "train_classes": [
+        "qu",
+        "shi",
+        "ci"
+      ]
+    },
+    "元→近代": {
+      "train_n": 387,
+      "test_n": 309,
+      "accuracy": 0.9903,
+      "macro_f1": 0.4976,
+      "train_classes": [
+        "qu",
+        "shi",
+        "ci"
+      ]
+    },
+    "明→唐": {
+      "train_n": 783,
+      "test_n": 678,
+      "accuracy": 0.7861,
+      "macro_f1": 0.4597,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    },
+    "明→宋": {
+      "train_n": 783,
+      "test_n": 949,
+      "accuracy": 0.7734,
+      "macro_f1": 0.4817,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    },
+    "明→元": {
+      "train_n": 783,
+      "test_n": 386,
+      "accuracy": 0.6166,
+      "macro_f1": 0.3814,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    },
+    "明→清": {
+      "train_n": 783,
+      "test_n": 927,
+      "accuracy": 0.7195,
+      "macro_f1": 0.4563,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    },
+    "明→近代": {
+      "train_n": 783,
+      "test_n": 309,
+      "accuracy": 0.8382,
+      "macro_f1": 0.456,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    },
+    "清→唐": {
+      "train_n": 927,
+      "test_n": 678,
+      "accuracy": 0.9956,
+      "macro_f1": 0.6989,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    },
+    "清→宋": {
+      "train_n": 927,
+      "test_n": 949,
+      "accuracy": 0.9842,
+      "macro_f1": 0.496,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    },
+    "清→元": {
+      "train_n": 927,
+      "test_n": 386,
+      "accuracy": 0.9404,
+      "macro_f1": 0.4846,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    },
+    "清→明": {
+      "train_n": 927,
+      "test_n": 783,
+      "accuracy": 0.9911,
+      "macro_f1": 0.6089,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    },
+    "清→近代": {
+      "train_n": 927,
+      "test_n": 309,
+      "accuracy": 0.9903,
+      "macro_f1": 0.4976,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    },
+    "近代→唐": {
+      "train_n": 309,
+      "test_n": 678,
+      "accuracy": 0.9956,
+      "macro_f1": 0.4989,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    },
+    "近代→宋": {
+      "train_n": 309,
+      "test_n": 949,
+      "accuracy": 0.9842,
+      "macro_f1": 0.496,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    },
+    "近代→元": {
+      "train_n": 309,
+      "test_n": 386,
+      "accuracy": 0.9974,
+      "macro_f1": 0.4994,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    },
+    "近代→明": {
+      "train_n": 309,
+      "test_n": 783,
+      "accuracy": 0.9898,
+      "macro_f1": 0.4974,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    },
+    "近代→清": {
+      "train_n": 309,
+      "test_n": 927,
+      "accuracy": 0.9838,
+      "macro_f1": 0.4959,
+      "train_classes": [
+        "shi",
+        "ci"
+      ]
+    }
+  },
+  "dynasty_control": {
+    "唐vs宋→清": {
+      "train_n": 1629,
+      "test_n": 927,
+      "pct_predicted_as": {
+        "唐": 0.0572,
+        "宋": 0.9428
+      },
+      "interpretation": "Trained to distinguish 唐 vs 宋, tested on 清 (neither class seen in training). Classifier arbitrarily assigns 5.7% to 唐. No meaningful generalization possible."
+    },
+    "唐vs宋→明": {
+      "train_n": 1629,
+      "test_n": 783,
+      "pct_predicted_as": {
+        "唐": 0.2363,
+        "宋": 0.7637
+      },
+      "interpretation": "Trained to distinguish 唐 vs 宋, tested on 明 (neither class seen in training). Classifier arbitrarily assigns 23.6% to 唐. No meaningful generalization possible."
+    },
+    "明vs清→宋": {
+      "train_n": 1710,
+      "test_n": 949,
+      "pct_predicted_as": {
+        "明": 0.5943,
+        "清": 0.4057
+      },
+      "interpretation": "Trained to distinguish 明 vs 清, tested on 宋 (neither class seen in training). Classifier arbitrarily assigns 59.4% to 明. No meaningful generalization possible."
+    },
+    "元vs明→清": {
+      "train_n": 1170,
+      "test_n": 927,
+      "pct_predicted_as": {
+        "元": 0.5102,
+        "明": 0.4898
+      },
+      "interpretation": "Trained to distinguish 元 vs 明, tested on 清 (neither class seen in training). Classifier arbitrarily assigns 51.0% to 元. No meaningful generalization possible."
+    }
+  },
+  "summary": {
+    "genre_cross_f1_mean": 0.479,
+    "genre_cross_f1_std": 0.0778,
+    "genre_cross_n_pairs": 30,
+    "dynasty_cannot_generalize": true
+  }
+}

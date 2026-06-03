@@ -24,6 +24,7 @@ paper.synctex.gz
 paper.bbl
 paper.blg
 paper.run.xml
+test_footnote.*
 
 # 中间结果（可从代码重建）
 results/analysis_H*.json
@@ -43,6 +44,8 @@ fonts_offline/
 paper/*.pdf
 slides_presentation*.html
 slides_presentation*.zip
+slides_offline.zip
+speaker_notes.md
 
 # 大数据文件（仅上传实验结果JSON，其他由脚本生成或用户提供）
 data/processed/*.npy
@@ -57,3 +60,6 @@ data/cbdb/
 paper.pdf
 .venv/
 .researchclaw_cache/
+
+# 图表 PDF 版本（PNG 已足够，PDF 可由脚本重新生成）
+data/figures/*.pdf
