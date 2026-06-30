@@ -52,6 +52,10 @@ results/trees/
 # 字体
 fonts_offline/
 
+# 原始数据打包归档（按需本地生成，不入仓）
+raw_data_bundle.tar.gz
+raw_data_bundle.tar.gz.sha256
+
 # 演示文稿与 PDF（不在仓库内）
 presentation.pptx
 presentation_v2.pptx
