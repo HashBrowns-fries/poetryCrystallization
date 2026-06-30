@@ -1,0 +1,72 @@
+{
+  "prosody_features": {
+    "feature_names": [
+      "total_chars",
+      "ping_ratio",
+      "ze_ratio",
+      "yun_diversity",
+      "n_lines",
+      "avg_line_len",
+      "std_line_len",
+      "end_yun_same",
+      "end_yun_count",
+      "pingze_change_rate"
+    ],
+    "n_poets": 4634,
+    "feature_dim": 10,
+    "test_accuracy": 0.9341963322545846,
+    "test_f1_macro": 0.321992935489868,
+    "test_balanced_acc": 0.3333333333333333,
+    "cv_mean": 0.9343981025207304,
+    "cv_std": 0.000403540532291391,
+    "confusion_matrix": [
+      [
+        0,
+        42,
+        0
+      ],
+      [
+        0,
+        866,
+        0
+      ],
+      [
+        0,
+        19,
+        0
+      ]
+    ]
+  },
+  "bert_embedding": {
+    "n_poets": 4634,
+    "embedding_dim": 512,
+    "test_accuracy": 0.9568500539374326,
+    "test_f1_macro": 0.7567253881247055,
+    "test_balanced_acc": 0.6873640992396309,
+    "cv_mean": 0.9458314402808939,
+    "cv_std": 0.01538536371778082,
+    "confusion_matrix": [
+      [
+        14,
+        28,
+        0
+      ],
+      [
+        7,
+        859,
+        0
+      ],
+      [
+        0,
+        5,
+        14
+      ]
+    ]
+  },
+  "comparison": {
+    "delta_accuracy": 0.02265372168284796,
+    "delta_f1_macro": 0.43473245263483745,
+    "delta_balanced_acc": 0.3540307659062976,
+    "interpretation": "格律特征仅能复现多数类先验（93.4% all-shi），对 ci/qu 的 F1=0.0；BERT 嵌入捕获 ci(F1=0.44)/qu(F1=0.85) 的真实区分。证明体裁效应非格律本身可解释，需诉诸语义内容。"
+  }
+}

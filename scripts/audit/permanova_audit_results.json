@@ -1,0 +1,22 @@
+{
+  "audit_date": "2026-06-04",
+  "issue": "PERMANOVA R² and p-value mismatch",
+  "problem": "置换检验用的是交互效应置换，不是纯效应置换",
+  "single_factor": {
+    "genre_R2": 0.17175888357677738,
+    "genre_p": 0.0,
+    "dynasty_R2": 0.8907447395846118,
+    "dynasty_p": 0.0
+  },
+  "two_factor": {
+    "R2_genre_cond": 0.013971995785269753,
+    "R2_dynasty_cond": 0.7329578517931041,
+    "R2_joint": 0.9047167353698815,
+    "F_genre": 338.7301053260837,
+    "F_dynasty": 5923.15500598721,
+    "p_genre_correct": 0.34934934934934936,
+    "p_dynasty_correct": 0.0,
+    "p_dynasty_original": 0.0
+  },
+  "conclusion": "代码逻辑错误：置换检验的不是纯效应，而是交互效应。需要重写置换函数。"
+}

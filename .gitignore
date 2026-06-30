@@ -11,8 +11,20 @@ __pycache__/
 
 # Python / Node
 node_modules/
+.venv/
+venv/
+env/
 uv.lock
 .pytest_cache/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# 外部克隆的语料库（多 GB；按 README 指引重新获取）
+external/
+
 
 # LaTeX 辅助文件
 paper.aux
@@ -40,12 +52,21 @@ results/trees/
 # 字体
 fonts_offline/
 
-# 幻灯片（可保留，但可忽略大型 zip）
+# 演示文稿与 PDF（不在仓库内）
+presentation.pptx
+presentation_v2.pptx
+paper.pdf
 paper/*.pdf
+*.pptx
+*.pdf
 slides_presentation*.html
 slides_presentation*.zip
 slides_offline.zip
 speaker_notes.md
+
+# slides 生成脚本（不入仓）
+scripts/make_slides*.js
+compile_check.sh
 
 # 大数据文件（仅上传实验结果JSON，其他由脚本生成或用户提供）
 data/processed/*.npy

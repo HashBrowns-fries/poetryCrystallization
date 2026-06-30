@@ -1,0 +1,32 @@
+=================================================================================================================================================
+PERMANOVA 完整审计表 (McArdle-Anderson PCoA framework)
+数据: n=4634 诗人, BERT-CCPoem cosine 距离, 4634×4634 matrix
+SS_Total (Gower) = 53.1176, df_resid = 4625, MS_resid = 0.008068
+random_seed = 42, n_permutations = 999
+=================================================================================================================================================
+
+Test                                                   SS    df         MS         F       R²         p  scheme                                    
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Genre only                                         5.0211     2     2.5106    311.19   0.0945    0.0000  unrestricted                              
+Dynasty only                                      11.8229     6     1.9705    244.25   0.2226    0.0000  unrestricted                              
+Joint model                                       15.8051     8     1.9756    244.89   0.2975         —  —                                         
+Genre | Dynasty (sequential, unrestricted)         3.9822     2     1.9911    246.80   0.0750    0.0000  unrestricted (Type I)                     
+Dynasty | Genre (sequential, unrestricted)        10.7840     6     1.7973    222.78   0.2030    0.0000  unrestricted (Type I)                     
+Genre | Dynasty (restricted)                       3.9822     2     1.9911    246.80   0.0750    0.0000  restricted within strata                  
+Dynasty | Genre (restricted)                      10.7840     6     1.7973    222.78   0.2030    0.0000  restricted within strata                  
+Genre | Dynasty (Freedman-Lane)                    3.9822     2     1.9911    246.80   0.0750    0.0000  Freedman-Lane (distance ≡ within-strata)  
+Dynasty | Genre (Freedman-Lane)                   10.7840     6     1.7973    222.78   0.2030    0.0000  Freedman-Lane (distance ≡ within-strata)  
+Genre | Dynasty (parametric)                       3.9822     2     1.9911    246.80   0.0750    0.0000  analytical F                              
+Dynasty | Genre (parametric)                      10.7840     6     1.7973    222.78   0.2030    0.0000  analytical F                              
+
+=================================================================================================================================================
+说明：
+  - 距离: cosine(BERT-CCPoem 512D poet embeddings)
+  - 框架: McArdle & Anderson 2001; SS = trace((X'X)^{-1} · X'GX)
+  - G = -1/2 (I - 11'/n) D² (I - 11'/n)  (Gower 中心化)
+  - 'unrestricted': 全局随机打乱被检变量
+  - 'restricted': 在固定变量层内独立打乱（更严格控制共线）
+  - 'Freedman-Lane (distance form)': 距离设定下 ≡ within-strata
+    (Anderson & ter Braak 2003 §3)
+  - 'parametric': F-分布近似，PERMANOVA 不假设正态，仅供参考
+=================================================================================================================================================

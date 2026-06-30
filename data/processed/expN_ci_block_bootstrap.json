@@ -1,0 +1,117 @@
+{
+  "method": "poet-level block bootstrap (resample poets w/ replacement)",
+  "metric": "bilateral normalized intertextual distance (TAU=0.85, SAMPLE_N=500)",
+  "ci_threshold": 5,
+  "seed": 42,
+  "n_boot": 2000,
+  "n_ci_poets": 687,
+  "n_nonci_poets_subsample": 1000,
+  "n_nonci_poets_total": 3945,
+  "n_ci_pairs": 235641,
+  "n_nonci_pairs": 499500,
+  "point": {
+    "ci_mean": 0.7614989280700684,
+    "nonci_mean": 0.9681020379066467,
+    "mean_diff": 0.20660310983657837,
+    "cohens_d_std_nonci": 1.819551666584864,
+    "cohens_d_pooled": 1.4443539018714275
+  },
+  "block_bootstrap_ci95": {
+    "ci_mean": [
+      0.7431384295225143,
+      0.7778618723154068
+    ],
+    "nonci_mean": [
+      0.9614105433225631,
+      0.974559685587883
+    ],
+    "mean_diff": [
+      0.18865271806716918,
+      0.2251503363251686
+    ],
+    "cohens_d_std_nonci": [
+      1.5379372924566268,
+      2.2041992425918577
+    ],
+    "cohens_d_pooled": [
+      1.3001210352417318,
+      1.5944331195115706
+    ]
+  },
+  "within_dynasty_block_bootstrap": {
+    "唐": {
+      "n_ci_poets": 22,
+      "n_nonci_poets": 180,
+      "ci_mean": 0.6842222213745117,
+      "nonci_mean": 0.8548250794410706,
+      "mean_diff_nonci_minus_ci": 0.17060285806655884,
+      "diff_ci95": [
+        0.08368937820196151,
+        0.26847122609615304
+      ],
+      "robust_ci_closer": true
+    },
+    "宋": {
+      "n_ci_poets": 286,
+      "n_nonci_poets": 164,
+      "ci_mean": 0.8637740015983582,
+      "nonci_mean": 0.990375816822052,
+      "mean_diff_nonci_minus_ci": 0.12660181522369385,
+      "diff_ci95": [
+        0.10516605675220489,
+        0.1494043409824371
+      ],
+      "robust_ci_closer": true
+    },
+    "元": {
+      "n_ci_poets": 59,
+      "n_nonci_poets": 76,
+      "ci_mean": 0.7623094320297241,
+      "nonci_mean": 0.8778581023216248,
+      "mean_diff_nonci_minus_ci": 0.11554867029190063,
+      "diff_ci95": [
+        0.03708732426166535,
+        0.1965223431587219
+      ],
+      "robust_ci_closer": true
+    },
+    "明": {
+      "n_ci_poets": 12,
+      "n_nonci_poets": 208,
+      "ci_mean": 0.8387123942375183,
+      "nonci_mean": 0.9947361350059509,
+      "mean_diff_nonci_minus_ci": 0.15602374076843262,
+      "diff_ci95": [
+        0.08774796575307846,
+        0.24728382974863025
+      ],
+      "robust_ci_closer": true
+    },
+    "清": {
+      "n_ci_poets": 169,
+      "n_nonci_poets": 183,
+      "ci_mean": 0.603135347366333,
+      "nonci_mean": 0.961902379989624,
+      "mean_diff_nonci_minus_ci": 0.358767032623291,
+      "diff_ci95": [
+        0.32724771499633787,
+        0.39067216515541076
+      ],
+      "robust_ci_closer": true
+    },
+    "近代": {
+      "n_ci_poets": 87,
+      "n_nonci_poets": 48,
+      "ci_mean": 0.6468502879142761,
+      "nonci_mean": 0.9713311195373535,
+      "mean_diff_nonci_minus_ci": 0.3244808316230774,
+      "diff_ci95": [
+        0.27834255397319796,
+        0.36656572222709655
+      ],
+      "robust_ci_closer": true
+    }
+  },
+  "effect_direction_robust": true,
+  "note": "原 §5.2 报告的 pair-level Cohen's d=1.90 与 Mann-Whitney p 值因伪重复（235,641 对仅来自 687 诗人）而无效；本表以诗人为重抽样单元的 block bootstrap CI 取代之。朝代内差值同样改用诗人级 CI。"
+}
